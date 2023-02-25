@@ -15,8 +15,14 @@ body {
     height: 100vh;
     /* background-color: ; */
 }
-
-.images{
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+/* .images{
   display: flex;
   width: 100%;
   height: 100%;
@@ -25,14 +31,14 @@ body {
 .img2{
   width: 80%;
   transform: translate(0%,80%);
-  /* translate: 0% 79%; */
+  translate: 0% 79%;
   z-index: -1;
 }
 
 .img1{
   width: 100%;
   height: 100%;
-}
+} */
 
 .circle1 {
   position: fixed;
